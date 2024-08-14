@@ -25,9 +25,8 @@ import SearchRide from './pages/NavSearch/SearchRide';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
       <Routes>
-        <Route path={"/"} element={ <HomePage/> } />
+        <Route path={"/"} element={ <LoginPage/>} />
         <Route path={"/publishride"} element={<PublishNewRide/>}/>
         <Route path={"/search"} element={<SearchRide/>}/>
         <Route path={"/details"} element={<RideDetailsPage/>}/>
@@ -39,7 +38,6 @@ function App() {
         
         
       </Routes> 
-     <FooterMain/>
       
       {/* <NavBar /> 
       <LandingPage />
