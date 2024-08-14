@@ -1,0 +1,86 @@
+.profile-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: rgb(237, 237, 237); /* Ensure the background is visible against the shadow */
+  border-radius: 8px; /* Adds rounded corners for a smoother look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* Light shadow at the bottom */
+              0 6px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for more depth */
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff; /* Makes the background white */
+  padding: 15px; /* Adds padding inside the card */
+  border-radius: 8px; /* Rounds the corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a card effect */
+  margin: 4px; /* Adds a small margin from all sides */
+}
+
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url('./avatar2.jpg');
+  margin-right: 20px;
+  background-size: cover;
+}
+
+.divider {
+  border: 0;
+  height: 5px;
+  background-color: rgb(255, 255, 255); /* Light gray line */
+  margin: 20px 0; /* Adds space around the line */
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #1c1c1c;
+}
+
+.profile-info p {
+  margin: 5px 0 0;
+  color: #777;
+}
+
+.profile-section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-weight: bold;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+}
+
+.profile-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-section ul li {
+  margin-bottom: 10px;
+}
+
+.profile-section ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.profile-section ul li.verified-item {
+  display: flex;
+  align-items: center;
+  color: #1c1c1c;
+}
+
+.profile-section ul li.verified-item span {
+  color: #007bff;
+  margin-right: 10px;
+}

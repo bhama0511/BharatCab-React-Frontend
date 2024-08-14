@@ -1,0 +1,58 @@
+.navbar2{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #2c7330; /* Makes the background white */
+  padding: 15px; /* Adds padding inside the card */
+  border-radius: 8px; /* Rounds the corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a card effect */
+  margin: 4px; /* Adds a small margin from all sides */
+}
+.container-fluid {
+  display: flex;
+  gap: 10px;
+  align-items: center; 
+  justify-content: center;
+}
+
+
+.form-control {
+  border: 1px solid #ced4da; /* Light grey border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 8px 12px; /* Padding inside the input */
+  font-size: 14px; /* Font size for input text */
+}
+
+/* Style the button */
+.navbar-toggler {
+  border: none;
+  padding: 8px 16px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* Change button color on hover */
+.navbar-toggler:hover {
+  background-color: #0056b3; /* Darker shade of blue */
+}
+
+/* Responsive design: stack elements vertically on small screens */
+@media (max-width: 768px) {
+  .container-fluid {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 10px;
+  }
+
+  .form-control {
+    width: 100%; /* Full width on small screens */
+  }
+
+  .navbar-toggler {
+    width: 100%; /* Full width on small screens */
+    text-align: center;
+  }
+}

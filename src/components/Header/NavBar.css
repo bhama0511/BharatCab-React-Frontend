@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #4c7275; /* Green */
+  overflow: hidden;
+  position: sticky; /* Make the navbar sticky */
+  top: 0; /* Stick to the top of the viewport */
+  width: 100%; /* Ensure it spans the full width of the viewport */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+/* Make sure to use clearfix for floated elements */
+.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar .logo {
+  float: left;
+  color: #d1d5d6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.navbar .nav-links {
+  float: right;
+  padding: 14px 16px;
+  list-style: none;
+}
+
+.navbar .nav-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar .nav-links a {
+  color: #d1d5d6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}

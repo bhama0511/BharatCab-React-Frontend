@@ -1,0 +1,85 @@
+.ride-card {
+  border: 2px solid #00a9e0;
+  border-radius: 8px;
+  padding: 16px;
+  width: 80%;
+  margin: 10px auto;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.ride-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.ride-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+
+.ride-time p {
+  margin: 2px 0;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.ride-duration {
+  font-size: 0.9em;
+  color: gray;
+}
+
+.ride-start, .ride-end {
+  font-size: 1.5em; 
+}
+
+.ride-cities {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ride-cities span {
+  margin: 2px 0;
+}
+
+.ride-price {
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+.ride-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ride-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-icon {
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.ride-features {
+  display: flex;
+  align-items: center;
+}
+
+.ride-features span {
+  margin-right: 5px;
+}
+
+.ride-features svg {
+  margin-right: 10px;
+}
